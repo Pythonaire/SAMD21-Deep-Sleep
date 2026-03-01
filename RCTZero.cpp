@@ -46,7 +46,7 @@ void RTCZero::begin(bool resetTime)
   uint16_t tmp_reg = 0;
   
   PM->APBAMASK.reg |= PM_APBAMASK_RTC; // turn on digital interface clock
-  //config32kOSC(); entfernt P.Wiechmann
+  //config32kOSC(); deleted Pythoniare
 
   // If the RTC is in clock mode and the reset was
   // not due to POR or BOD, preserve the clock time
