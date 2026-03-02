@@ -16,7 +16,7 @@
   License along with this library; if not, write to the Free Software
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 */
-// Modified by P. Wiechmann for Feather M0, using internal OSCULP32K and
+// Modified Pythonaire for Feather M0, using internal OSCULP32K and
 // optimized for wake-up-only use (no persistent RTC clock)
 
 #ifndef RTC_ZERO_H
